@@ -1,37 +1,36 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="1100"
-    height="440"
-    viewBox="0 0 1100 440"
+    width="1180"
+    height="460"
+    viewBox="0 0 1180 460"
     role="img"
     aria-label="Matthew GitHub profile">
 
 <defs>
 
-    <!-- Фон правой карточки -->
     <linearGradient id="panel-bg" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#161b22"/>
+        <stop offset="0%" stop-color="#172233"/>
+        <stop offset="45%" stop-color="#111821"/>
         <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
 
-    <!-- Очень слабый glow -->
-    <radialGradient id="glow" cx="0" cy="0.2" r="1">
-        <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.16"/>
-        <stop offset="55%" stop-color="#58a6ff" stop-opacity="0.03"/>
+    <radialGradient id="glow" cx="0.05" cy="0.05" r="0.95">
+        <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.14"/>
+        <stop offset="45%" stop-color="#58a6ff" stop-opacity="0.035"/>
         <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
     </radialGradient>
 
 </defs>
 
 
-<!-- ===================================================== -->
-<!-- LEFT: ANIMATED ASCII PORTRAIT                          -->
-<!-- ===================================================== -->
+<!-- ========================================= -->
+<!-- LEFT: ASCII PORTRAIT                      -->
+<!-- ========================================= -->
 
 <svg
-    x="0"
-    y="1"
-    width="470"
+    x="5"
+    y="10"
+    width="455"
     height="438"
     viewBox="24 82 470 438"
     overflow="hidden">
@@ -145,34 +144,32 @@
 </svg>
 
 
-<!-- ===================================================== -->
-<!-- RIGHT: ABOUT                                          -->
-<!-- ===================================================== -->
+<!-- ========================================= -->
+<!-- RIGHT: PROFILE CARD                       -->
+<!-- ========================================= -->
 
-<g transform="translate(500,20)">
+<g transform="translate(495,18)">
 
-    <!-- Основная dark-карточка -->
     <rect
         x="0"
         y="0"
-        width="575"
-        height="400"
-        rx="20"
+        width="660"
+        height="420"
+        rx="22"
         fill="url(#panel-bg)"
     />
 
-    <!-- Слабое свечение -->
     <rect
         x="0"
         y="0"
-        width="575"
-        height="400"
-        rx="20"
+        width="660"
+        height="420"
+        rx="22"
         fill="url(#glow)"
     />
 
 
-    <!-- Маленькая верхняя строка -->
+    <!-- top status -->
     <g opacity="0">
 
         <animate
@@ -185,69 +182,75 @@
         />
 
         <circle
-            cx="34"
-            cy="34"
-            r="4"
+            cx="38"
+            cy="38"
+            r="5"
             fill="#3fb950"
         />
 
         <text
-            x="48"
-            y="39"
+            x="320"
+            y="44"
+            text-anchor="middle"
             fill="#8b949e"
             font-family="monospace"
-            font-size="13">
+            font-size="15"
+            font-weight="600">
             beatof1l / profile
         </text>
 
     </g>
 
 
-    <!-- Имя -->
+    <!-- NAME -->
     <g opacity="0">
 
         <animate
             attributeName="opacity"
             from="0"
             to="1"
-            dur="0.6s"
+            dur="0.55s"
             begin="0.45s"
             fill="freeze"
         />
 
         <text
-            x="32"
-            y="100"
+            x="330"
+            y="112"
+            text-anchor="middle"
             fill="#f0f6fc"
-            font-family="Arial, sans-serif"
-            font-size="38"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="46"
             font-weight="700">
             matthew
         </text>
 
-        <!-- professional tag -->
+
+        <!-- headline pill -->
         <rect
-            x="32"
-            y="119"
-            width="286"
-            height="30"
-            rx="7"
+            x="115"
+            y="137"
+            width="430"
+            height="42"
+            rx="10"
             fill="#21262d"
         />
 
         <text
-            x="45"
-            y="139"
-            fill="#c9d1d9"
+            x="330"
+            y="164"
+            text-anchor="middle"
+            fill="#d0d7de"
             font-family="monospace"
-            font-size="14">
+            font-size="17"
+            font-weight="600">
             backend / software engineering
         </text>
 
     </g>
 
 
-    <!-- ABOUT -->
+    <!-- ABOUT TEXT -->
     <g opacity="0">
 
         <animate
@@ -260,56 +263,48 @@
         />
 
         <text
-            x="32"
-            y="195"
-            fill="#58a6ff"
-            font-family="monospace"
-            font-size="13"
+            x="48"
+            y="235"
+            fill="#f0f6fc"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="21"
             font-weight="600">
-            01 / ABOUT
-        </text>
-
-        <text
-            x="32"
-            y="230"
-            fill="#e6edf3"
-            font-family="Arial, sans-serif"
-            font-size="17">
             Building backend systems, web services
         </text>
 
         <text
-            x="32"
-            y="256"
-            fill="#e6edf3"
-            font-family="Arial, sans-serif"
-            font-size="17">
+            x="48"
+            y="268"
+            fill="#f0f6fc"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="21"
+            font-weight="600">
             and personal infrastructure.
         </text>
 
 
         <text
-            x="32"
-            y="302"
-            fill="#8b949e"
-            font-family="Arial, sans-serif"
-            font-size="16">
-            Currently focused on C++, Python,
+            x="48"
+            y="321"
+            fill="#9da7b3"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="19">
+            Currently focused on C++, Kotlin,
         </text>
 
         <text
-            x="32"
-            y="327"
-            fill="#8b949e"
-            font-family="Arial, sans-serif"
-            font-size="16">
+            x="48"
+            y="351"
+            fill="#9da7b3"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="19">
             backend development and system design.
         </text>
 
     </g>
 
 
-    <!-- Bottom tags -->
+    <!-- TAGS -->
     <g opacity="0">
 
         <animate
@@ -321,59 +316,69 @@
             fill="freeze"
         />
 
+
+        <!-- BACKEND -->
         <rect
-            x="32"
-            y="354"
-            width="100"
-            height="28"
-            rx="14"
+            x="48"
+            y="374"
+            width="155"
+            height="34"
+            rx="17"
             fill="#21262d"
         />
 
         <text
-            x="50"
-            y="373"
-            fill="#8b949e"
+            x="125.5"
+            y="396"
+            text-anchor="middle"
+            fill="#aab4c0"
             font-family="monospace"
-            font-size="12">
+            font-size="13"
+            font-weight="600">
             BACKEND
         </text>
 
 
+        <!-- SYSTEMS -->
         <rect
-            x="142"
-            y="354"
-            width="100"
-            height="28"
-            rx="14"
+            x="217"
+            y="374"
+            width="155"
+            height="34"
+            rx="17"
             fill="#21262d"
         />
 
         <text
-            x="159"
-            y="373"
-            fill="#8b949e"
+            x="294.5"
+            y="396"
+            text-anchor="middle"
+            fill="#aab4c0"
             font-family="monospace"
-            font-size="12">
+            font-size="13"
+            font-weight="600">
             SYSTEMS
         </text>
 
 
+        <!-- INFRASTRUCTURE -->
         <rect
-            x="252"
-            y="354"
-            width="154"
-            height="28"
-            rx="14"
+            x="386"
+            y="374"
+            width="225"
+            height="34"
+            rx="17"
             fill="#21262d"
         />
 
         <text
-            x="269"
-            y="373"
-            fill="#8b949e"
+            x="498.5"
+            y="396"
+            text-anchor="middle"
+            fill="#aab4c0"
             font-family="monospace"
-            font-size="12">
+            font-size="13"
+            font-weight="600">
             INFRASTRUCTURE
         </text>
 
