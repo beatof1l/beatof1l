@@ -1,10 +1,42 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
+    width="1100"
+    height="440"
+    viewBox="0 0 1100 440"
+    role="img"
+    aria-label="Matthew GitHub profile">
+
+<defs>
+
+    <!-- Фон правой карточки -->
+    <linearGradient id="panel-bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#161b22"/>
+        <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- Очень слабый glow -->
+    <radialGradient id="glow" cx="0" cy="0.2" r="1">
+        <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.16"/>
+        <stop offset="55%" stop-color="#58a6ff" stop-opacity="0.03"/>
+        <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+
+</defs>
+
+
+<!-- ===================================================== -->
+<!-- LEFT: ANIMATED ASCII PORTRAIT                          -->
+<!-- ===================================================== -->
+
+<svg
+    x="0"
+    y="1"
     width="470"
     height="438"
     viewBox="24 82 470 438"
-    role="img"
-    aria-label="ASCII portrait">
+    overflow="hidden">
+
+
 
 <defs>
 
@@ -107,5 +139,246 @@
 <tspan x="78" y="495.65" xml:space="preserve">:@@%@@@@@@@%%%%%%%%@%%%%@%@@@@@%@%%%%%%%%%%%%%%%%@@@@%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@: </tspan>
 <tspan x="78" y="502.30" xml:space="preserve">-@%%@@@@@@@%%%%%%%%@@@%%%%@@@@@%@%%%%@@@%%@@%%%%%@@@@@%%%%@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@#.</tspan>
 <tspan x="78" y="508.95" xml:space="preserve">+@%%%@@%@@%%%%%%%%%%%%%%%%%%%@%%@%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@%@@@@@@@@@@@@@@@@@@%@@@%%@@-</tspan></text></g>
+
+
+
+</svg>
+
+
+<!-- ===================================================== -->
+<!-- RIGHT: ABOUT                                          -->
+<!-- ===================================================== -->
+
+<g transform="translate(500,20)">
+
+    <!-- Основная dark-карточка -->
+    <rect
+        x="0"
+        y="0"
+        width="575"
+        height="400"
+        rx="20"
+        fill="url(#panel-bg)"
+    />
+
+    <!-- Слабое свечение -->
+    <rect
+        x="0"
+        y="0"
+        width="575"
+        height="400"
+        rx="20"
+        fill="url(#glow)"
+    />
+
+
+    <!-- Маленькая верхняя строка -->
+    <g opacity="0">
+
+        <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="0.5s"
+            begin="0.25s"
+            fill="freeze"
+        />
+
+        <circle
+            cx="34"
+            cy="34"
+            r="4"
+            fill="#3fb950"
+        />
+
+        <text
+            x="48"
+            y="39"
+            fill="#8b949e"
+            font-family="monospace"
+            font-size="13">
+            beatof1l / profile
+        </text>
+
+    </g>
+
+
+    <!-- Имя -->
+    <g opacity="0">
+
+        <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="0.6s"
+            begin="0.45s"
+            fill="freeze"
+        />
+
+        <text
+            x="32"
+            y="100"
+            fill="#f0f6fc"
+            font-family="Arial, sans-serif"
+            font-size="38"
+            font-weight="700">
+            matthew
+        </text>
+
+        <!-- professional tag -->
+        <rect
+            x="32"
+            y="119"
+            width="286"
+            height="30"
+            rx="7"
+            fill="#21262d"
+        />
+
+        <text
+            x="45"
+            y="139"
+            fill="#c9d1d9"
+            font-family="monospace"
+            font-size="14">
+            backend / software engineering
+        </text>
+
+    </g>
+
+
+    <!-- ABOUT -->
+    <g opacity="0">
+
+        <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="0.6s"
+            begin="0.70s"
+            fill="freeze"
+        />
+
+        <text
+            x="32"
+            y="195"
+            fill="#58a6ff"
+            font-family="monospace"
+            font-size="13"
+            font-weight="600">
+            01 / ABOUT
+        </text>
+
+        <text
+            x="32"
+            y="230"
+            fill="#e6edf3"
+            font-family="Arial, sans-serif"
+            font-size="17">
+            Building backend systems, web services
+        </text>
+
+        <text
+            x="32"
+            y="256"
+            fill="#e6edf3"
+            font-family="Arial, sans-serif"
+            font-size="17">
+            and personal infrastructure.
+        </text>
+
+
+        <text
+            x="32"
+            y="302"
+            fill="#8b949e"
+            font-family="Arial, sans-serif"
+            font-size="16">
+            Currently focused on C++, Python,
+        </text>
+
+        <text
+            x="32"
+            y="327"
+            fill="#8b949e"
+            font-family="Arial, sans-serif"
+            font-size="16">
+            backend development and system design.
+        </text>
+
+    </g>
+
+
+    <!-- Bottom tags -->
+    <g opacity="0">
+
+        <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="0.6s"
+            begin="1s"
+            fill="freeze"
+        />
+
+        <rect
+            x="32"
+            y="354"
+            width="100"
+            height="28"
+            rx="14"
+            fill="#21262d"
+        />
+
+        <text
+            x="50"
+            y="373"
+            fill="#8b949e"
+            font-family="monospace"
+            font-size="12">
+            BACKEND
+        </text>
+
+
+        <rect
+            x="142"
+            y="354"
+            width="100"
+            height="28"
+            rx="14"
+            fill="#21262d"
+        />
+
+        <text
+            x="159"
+            y="373"
+            fill="#8b949e"
+            font-family="monospace"
+            font-size="12">
+            SYSTEMS
+        </text>
+
+
+        <rect
+            x="252"
+            y="354"
+            width="154"
+            height="28"
+            rx="14"
+            fill="#21262d"
+        />
+
+        <text
+            x="269"
+            y="373"
+            fill="#8b949e"
+            font-family="monospace"
+            font-size="12">
+            INFRASTRUCTURE
+        </text>
+
+    </g>
+
+</g>
 
 </svg>
