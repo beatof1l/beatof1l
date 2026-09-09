@@ -2,10 +2,6 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&text=matthew%20sklyar&fontAlign=50&fontAlignY=40&desc=Backend%20Developer&descAlign=50&descAlignY=60" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=600&lines=Backend+Developer;C%2B%2B+%7C+Python+%7C+Django;Building+Hive;Learning+something+new+every+day" />
-</p>
-
 <h1 align="center">Hi, I'm Matthew 👋</h1>
 
 <h3 align="center">
@@ -14,6 +10,10 @@ Backend Developer • Software Engineering
 
 <p align="center">
   C++ • Python • Kotlin 
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=600&lines=Backend+Developer;C%2B%2B+%7C+Python+%7C+Django;Learning+something+new+every+day" />
 </p>
 
 ---
