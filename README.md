@@ -16,15 +16,12 @@ Backend Developer • Software Engineering
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=600&lines=Backend+Developer;C%2B%2B+%7C+Python+%7C+Django;Learning+something+new+every+day" />
 </p>
 
----
-
 ## About me
 
 - Backend and software engineering
 - Building web services and personal infrastructure
 - Learning C++, Python and system engineering
 
----
 
 ## Tech Stack
 
@@ -32,7 +29,6 @@ Backend Developer • Software Engineering
   <img src="https://skillicons.dev/icons?i=cpp,python,django,kotlin,postgres,docker,linux,git,github,vscode" />
 </p>
 
----
 
 ## GitHub Stats
 
@@ -48,6 +44,7 @@ Backend Developer • Software Engineering
 ## Contact
 
 GitHub: @beatof1l
+
 Telegram: @beatof1l
 
 ## Contributions
@@ -56,15 +53,15 @@ Telegram: @beatof1l
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/beatof1l/beatof1l/output/github-snake-dark.svg"
+      srcset="https://raw.githubusercontent.com/beatof1l/beatof1l/gh-pages/github-snake-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/beatof1l/beatof1l/output/github-snake.svg"
+      srcset="https://raw.githubusercontent.com/beatof1l/beatof1l/gh-pages/github-snake.svg"
     />
     <img
       alt="github contribution snake"
-      src="https://raw.githubusercontent.com/beatof1l/beatof1l/output/github-snake.svg"
+      src="https://raw.githubusercontent.com/beatof1l/beatof1l/gh-pages/github-snake.svg"
     />
   </picture>
 </p>
