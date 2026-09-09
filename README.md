@@ -2,6 +2,50 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&text=matthew%20sklyar&fontAlign=50&fontAlignY=40&desc=Backend%20Developer&descAlign=50&descAlignY=60" />
 </p>
 
+<h1 align="center">Hi, I'm Matthew 👋</h1>
+
+<h3 align="center">
+Backend Developer • Software Engineering
+</h3>
+
+<p align="center">
+  C++ • Python • Kotlin 
+</p>
+
+---
+
+## About me
+
+- Backend and software engineering
+- Building web services and personal infrastructure
+- Learning C++, Python and system engineering
+
+---
+
+## Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp,python,django,kotlin,postgres,docker,linux,git,github,vscode" />
+</p>
+
+---
+
+## GitHub Stats
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=beatof1l&show_icons=true&theme=github_dark" />
+</p>
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beatof1l&layout=compact&theme=github_dark" />
+</p>
+
+
+## Contact
+
+GitHub: @beatof1l
+Telegram: @beatof1l
+
 ## Contributions
 
 <p align="center">
