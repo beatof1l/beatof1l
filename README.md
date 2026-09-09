@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Matthew profile" />
+  <img src="./assets/portrait.svg" width="100%" alt="Matthew profile" />
 </p>
 
 <br>
