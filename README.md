@@ -1,60 +1,52 @@
-<table>
-<tr>
-<td width="42%" valign="top">
-
-<img src="./assets/portrait.svg" width="100%" alt="ASCII portrait" />
-
-</td>
-
-<td width="58%" valign="top">
-
-<h1>matthew</h1>
-
-<code>backend / software engineering</code>
-
-<b>&gt; about</b>
-
-<p>
-Building backend systems, web services<br>
-and personal infrastructure.
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Matthew profile" />
 </p>
 
-<b>&gt; stack</b>
+<br>
 
-<pre>
-C++        Python      Django
-Kotlin     PostgreSQL  Docker
-</pre>
+<div align="left">
 
-</td>
-</tr>
-</table>
+### `> tech_stack`
 
-# Tech Stack
+</div>
 
 <p>
   <img src="https://skillicons.dev/icons?i=cpp,python,django,kotlin,postgres,docker,linux,git,github,vscode" />
 </p>
 
+<br>
 
-## GitHub Stats
+<div align="left">
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=beatof1l&show_icons=true&theme=github_dark" />
+### `> github_stats`
+
+</div>
+
+<p align="center">
+  <img src="./profile/stats.svg" height="180" alt="GitHub Stats" />
+  <img src="./profile/top-langs.svg" height="180" alt="Top Languages" />
 </p>
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beatof1l&layout=compact&theme=github_dark" />
-</p>
+<br>
 
+<div align="left">
 
-## Contact
+### `> contact`
 
-GitHub: *@beatof1l*
+</div>
 
-Telegram: *@beatof1l*
+<pre>
+github    @beatof1l
+telegram  @beatof1l
+</pre>
 
-## Contributions
+<br>
+
+<div align="left">
+
+### `> contributions`
+
+</div>
 
 <p align="center">
   <picture>
