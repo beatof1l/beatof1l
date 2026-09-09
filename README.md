@@ -1,27 +1,49 @@
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&text=matthew%20sklyar&fontAlign=50&fontAlignY=40&desc=Backend%20Developer&descAlign=50&descAlignY=60" />
+<table>
+<tr>
+<td width="42%" valign="top">
+
+<img src="./assets/portrait.svg" width="100%" alt="ASCII portrait" />
+
+</td>
+
+<td width="58%" valign="top">
+
+<h1>matthew</h1>
+
+<code>backend / software engineering</code>
+
+<br><br>
+
+<b>&gt; about</b>
+
+<p>
+Building backend systems, web services<br>
+and personal infrastructure.
 </p>
 
-<h1 align="center">Hi, I'm Matthew 👋</h1>
-
-<h3 align="center">
-Backend Developer • Software Engineering
-</h3>
-
-<p align="center">
-  C++ • Python • Kotlin 
+<p>
+Interested in system design, distributed<br>
+services and low-level engineering.
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=600&lines=Backend+Developer;C%2B%2B+%7C+Python+%7C+Django;Learning+something+new+every+day" />
+<p>
+Currently focused on C++, Python<br>
+and backend development.
 </p>
 
-## About me
+<br>
 
-- Backend and software engineering
-- Building web services and personal infrastructure
-- Learning C++, Python and system engineering
+<b>&gt; stack</b>
 
+<pre>
+C++        Python      Django
+Kotlin     PostgreSQL  Docker
+Linux      Git         REST
+</pre>
+
+</td>
+</tr>
+</table>
 
 ## Tech Stack
 
