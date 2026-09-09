@@ -43,9 +43,9 @@ Backend Developer • Software Engineering
 
 ## Contact
 
-GitHub: @beatof1l
+GitHub: *@beatof1l*
 
-Telegram: @beatof1l
+Telegram: *@beatof1l*
 
 ## Contributions
 
