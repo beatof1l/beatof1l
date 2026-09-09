@@ -12,8 +12,6 @@
 
 <code>backend / software engineering</code>
 
-<br><br>
-
 <b>&gt; about</b>
 
 <p>
