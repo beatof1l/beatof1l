@@ -19,31 +19,18 @@ Building backend systems, web services<br>
 and personal infrastructure.
 </p>
 
-<p>
-Interested in system design, distributed<br>
-services and low-level engineering.
-</p>
-
-<p>
-Currently focused on C++, Python<br>
-and backend development.
-</p>
-
-<br>
-
 <b>&gt; stack</b>
 
 <pre>
 C++        Python      Django
 Kotlin     PostgreSQL  Docker
-Linux      Git         REST
 </pre>
 
 </td>
 </tr>
 </table>
 
-## Tech Stack
+# Tech Stack
 
 <p>
   <img src="https://skillicons.dev/icons?i=cpp,python,django,kotlin,postgres,docker,linux,git,github,vscode" />
